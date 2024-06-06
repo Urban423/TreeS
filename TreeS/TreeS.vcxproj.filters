@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="SybolicTree.cpp">
+      <Filter>SybolicTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{e1b70403-c6e6-4a5f-8b4b-dbc7e6211022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{17841711-f0bb-4296-8446-79f1a2ee43ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree">
+      <UniqueIdentifier>{1f32db80-dd55-45f4-b8d8-9855e855a4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SybolicTree">
+      <UniqueIdentifier>{fbae25f6-2457-4012-a316-7898c2d5ee3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SybolicTree.h">
+      <Filter>SybolicTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h" />
+  </ItemGroup>
+</Project>
